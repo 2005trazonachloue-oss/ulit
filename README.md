@@ -85,7 +85,7 @@
     }
 
     #noBtn {
-      position: absolute;
+      position: relative;
     }
 
     @media (max-width: 600px) {
