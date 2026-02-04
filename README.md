@@ -81,12 +81,12 @@
       position: relative
       display: flex;
       gap: 20px;
-      justify-content: center;
+      justify-content: right;
       margin-top: 40px;
     }
 
     #noBtn {
-      position: absolute;
+      position: relative;
     }
 
     @media (max-width: 600px) {
