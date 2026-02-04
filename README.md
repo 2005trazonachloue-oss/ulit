@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -135,8 +135,7 @@
         <h1>Will you be my Valentine? 💘</h1>
         <div class="btn-group">
           <button onclick="yesClicked()">Yes 💕</button>
-          <button id="noBtn">No :)</button>
-          
+          <button id="noBtn">No 🙄</button>
         </div>
       `;
 
