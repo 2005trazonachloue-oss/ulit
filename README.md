@@ -105,6 +105,7 @@
   <div class="container" id="content"></div>
 
   <script>
+    let accepted = false;
     const content = document.getElementById('content');
     const params = new URLSearchParams(window.location.search);
 
@@ -138,7 +139,7 @@
           <button onclick="openValentine()">Click here if you love me 💗</button>
         </div>
       `;
-    } else {
+    } else if (!accepted) {
       content.innerHTML = `
   <h1>Will you be my Valentine? 💘</h1>
   <div class="btn-group">
@@ -172,24 +173,26 @@
       window.open(window.location.pathname + '?valentine=true', '_blank');
     }
   function yesClicked() {
-    confetti({
-      particleCount: 180,
-      spread: 100,
-      origin: { y: 0.6 },
-      shapes: ['heart'],
-      colors: ['#ff8fb1', '#ffb3c6', '#ffd6e8']
-    });
+  accepted = true;
+  confetti({
+    particleCount: 200,
+    spread: 120,
+    origin: { y: 0.6 },
+    shapes: ['circle'],
+    colors: ['#ff8fb1', '#ffb3c6', '#ffd6e8']
+  });
 
-    document.querySelector('.container').innerHTML = `
-      <h1 style="
-        text-align: center;
-        font-size: 3rem;
-        margin-top: 40px;
-      ">
-        YEEEY I LOVE YOU 💖💖💖
-      </h1>
-    `;
-  }
+  const box = document.getElementById('content');
+
+  box.innerHTML = `
+    <h1 style="text-align:center; font-size:3rem;">
+      YEEEY I LOVE YOU 💖💖💖
+    </h1>
+    <p style="text-align:center; font-size:1.5rem;">
+      Forever and a day 💕
+    </p>
+  `;
+}
 </script>
 </body>
 </html>
