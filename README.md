@@ -20,6 +20,7 @@
     }
 
     .container {
+      min-height: 400px;
       max-width: 800px;
       width: 100%;
       background: #fff0f6;
