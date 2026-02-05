@@ -92,14 +92,14 @@
     @media (max-width: 600px) {
       ol { font-size: 1rem; }
     }
-  </style>
+ </style>
 </head>
 <body>
-  <div id="content"></div>
+  <div class="container" id="content"></div>
 
   <script>
-    const params = new URLSearchParams(window.location.search);
     const content = document.getElementById('content');
+    const params = new URLSearchParams(window.location.search);
 
     if (!params.get('valentine')) {
       content.innerHTML = `
