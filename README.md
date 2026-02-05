@@ -175,11 +175,8 @@
 
       document.getElementById('content').innerHTML = `
         <h1 style="text-align:center; font-size:3rem;">
-          YEEEY I LOVE YOU 💖💖💖
+          YEEEY I LOVE YOU, FOREVER AND A DAY 💖
         </h1>
-        <p style="text-align:center; font-size:1.5rem;">
-          Forever and a day 💕
-        </p>
       `;
     }
   </script>
