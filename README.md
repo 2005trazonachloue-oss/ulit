@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -175,8 +176,11 @@
 
       document.getElementById('content').innerHTML = `
         <h1 style="text-align:center; font-size:3rem;">
-          YEEEY I LOVE YOU, FOREVER AND A DAY 💖
+          YEEEY I LOVE YOU 💖💖💖
         </h1>
+        <p style="text-align:center; font-size:1.5rem;">
+          Forever and a day 💕
+        </p>
       `;
     }
   </script>
