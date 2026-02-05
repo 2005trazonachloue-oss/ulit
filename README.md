@@ -20,7 +20,6 @@
     }
 
     .container {
-      min-height: 400px;
       max-width: 800px;
       width: 100%;
       background: #fff0f6;
@@ -99,7 +98,7 @@
   #content {
   font-family: 'Pacifico', cursive;
   font-size: 1.2rem;
-  line-heigh: 1.8;
+  line-height: 1.8;
   }
 </style>
 <body>
