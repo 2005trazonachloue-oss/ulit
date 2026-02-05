@@ -180,7 +180,7 @@
 
       document.getElementById('content').innerHTML = `
         <h1 class="yay-title">
-          YEEEY I LOVE YOU 💖💖💖
+          Yeeeey I love you 💖
         </h1>
         <p class="yay-text">
           Forever and a day 💕
