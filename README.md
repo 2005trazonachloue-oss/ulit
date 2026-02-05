@@ -143,7 +143,7 @@
       content.innerHTML = `
   <h1>Will you be my Valentine? 💘</h1>
   <div class="btn-group">
-    <button onclick="yesClicked()">Yes 💕</button>
+    <button onclick="alert('YES CLICKED')">Yes 💕</button>
     <button id="noBtn">No 🙄</button>
   </div>
 `;
@@ -170,7 +170,7 @@
     }
 
     function openValentine() {
-      window.open(window.location.pathname + '?valentine=true', '_blank');
+  window.location.href = window.location.pathname + '?valentine=true';
     }
   function yesClicked() {
   accepted = true;
